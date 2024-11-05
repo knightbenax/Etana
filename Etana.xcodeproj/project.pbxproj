@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFB8FF952CD9BA9B00BADC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB8FF722CD9BA9900BADC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB8FF792CD9BA9900BADC8F;
+			remoteInfo = Etana;
+		};
+		EFB8FF9F2CD9BA9B00BADC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB8FF722CD9BA9900BADC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB8FF792CD9BA9900BADC8F;
+			remoteInfo = Etana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB8FF7A2CD9BA9900BADC8F /* Etana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB8FF942CD9BA9B00BADC8F /* EtanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB8FF9E2CD9BA9B00BADC8F /* EtanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EFB8FFA62CD9BA9B00BADC8F /* Exceptions for "Etana" folder in "Etana" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EFB8FF792CD9BA9900BADC8F /* Etana */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFB8FF7C2CD9BA9900BADC8F /* Etana */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EFB8FFA62CD9BA9B00BADC8F /* Exceptions for "Etana" folder in "Etana" target */,
+			);
+			path = Etana;
+			sourceTree = "<group>";
+		};
+		EFB8FF972CD9BA9B00BADC8F /* EtanaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EtanaTests;
+			sourceTree = "<group>";
+		};
+		EFB8FFA12CD9BA9B00BADC8F /* EtanaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EtanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB8FF772CD9BA9900BADC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF912CD9BA9B00BADC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF9B2CD9BA9B00BADC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB8FF712CD9BA9900BADC8F = {
+			isa = PBXGroup;
+			children = (
+				EFB8FF7C2CD9BA9900BADC8F /* Etana */,
+				EFB8FF972CD9BA9B00BADC8F /* EtanaTests */,
+				EFB8FFA12CD9BA9B00BADC8F /* EtanaUITests */,
+				EFB8FF7B2CD9BA9900BADC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB8FF7B2CD9BA9900BADC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8FF7A2CD9BA9900BADC8F /* Etana.app */,
+				EFB8FF942CD9BA9B00BADC8F /* EtanaTests.xctest */,
+				EFB8FF9E2CD9BA9B00BADC8F /* EtanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB8FF792CD9BA9900BADC8F /* Etana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FFA72CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "Etana" */;
+			buildPhases = (
+				EFB8FF762CD9BA9900BADC8F /* Sources */,
+				EFB8FF772CD9BA9900BADC8F /* Frameworks */,
+				EFB8FF782CD9BA9900BADC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFB8FF7C2CD9BA9900BADC8F /* Etana */,
+			);
+			name = Etana;
+			packageProductDependencies = (
+			);
+			productName = Etana;
+			productReference = EFB8FF7A2CD9BA9900BADC8F /* Etana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB8FF932CD9BA9B00BADC8F /* EtanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FFAC2CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "EtanaTests" */;
+			buildPhases = (
+				EFB8FF902CD9BA9B00BADC8F /* Sources */,
+				EFB8FF912CD9BA9B00BADC8F /* Frameworks */,
+				EFB8FF922CD9BA9B00BADC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB8FF962CD9BA9B00BADC8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFB8FF972CD9BA9B00BADC8F /* EtanaTests */,
+			);
+			name = EtanaTests;
+			packageProductDependencies = (
+			);
+			productName = EtanaTests;
+			productReference = EFB8FF942CD9BA9B00BADC8F /* EtanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB8FF9D2CD9BA9B00BADC8F /* EtanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB8FFAF2CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "EtanaUITests" */;
+			buildPhases = (
+				EFB8FF9A2CD9BA9B00BADC8F /* Sources */,
+				EFB8FF9B2CD9BA9B00BADC8F /* Frameworks */,
+				EFB8FF9C2CD9BA9B00BADC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB8FFA02CD9BA9B00BADC8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFB8FFA12CD9BA9B00BADC8F /* EtanaUITests */,
+			);
+			name = EtanaUITests;
+			packageProductDependencies = (
+			);
+			productName = EtanaUITests;
+			productReference = EFB8FF9E2CD9BA9B00BADC8F /* EtanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB8FF722CD9BA9900BADC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EFB8FF792CD9BA9900BADC8F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EFB8FF932CD9BA9B00BADC8F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EFB8FF792CD9BA9900BADC8F;
+					};
+					EFB8FF9D2CD9BA9B00BADC8F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EFB8FF792CD9BA9900BADC8F;
+					};
+				};
+			};
+			buildConfigurationList = EFB8FF752CD9BA9900BADC8F /* Build configuration list for PBXProject "Etana" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB8FF712CD9BA9900BADC8F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFB8FF7B2CD9BA9900BADC8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB8FF792CD9BA9900BADC8F /* Etana */,
+				EFB8FF932CD9BA9B00BADC8F /* EtanaTests */,
+				EFB8FF9D2CD9BA9B00BADC8F /* EtanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB8FF782CD9BA9900BADC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF922CD9BA9B00BADC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF9C2CD9BA9B00BADC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB8FF762CD9BA9900BADC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF902CD9BA9B00BADC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB8FF9A2CD9BA9B00BADC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB8FF962CD9BA9B00BADC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB8FF792CD9BA9900BADC8F /* Etana */;
+			targetProxy = EFB8FF952CD9BA9B00BADC8F /* PBXContainerItemProxy */;
+		};
+		EFB8FFA02CD9BA9B00BADC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB8FF792CD9BA9900BADC8F /* Etana */;
+			targetProxy = EFB8FF9F2CD9BA9B00BADC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFB8FFA82CD9BA9B00BADC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Etana/Etana.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Etana/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookBee;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.Etana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB8FFA92CD9BA9B00BADC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Etana/Etana.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Etana/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookBee;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.Etana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFB8FFAA2CD9BA9B00BADC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFB8FFAB2CD9BA9B00BADC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB8FFAD2CD9BA9B00BADC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.EtanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etana";
+			};
+			name = Debug;
+		};
+		EFB8FFAE2CD9BA9B00BADC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.EtanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etana";
+			};
+			name = Release;
+		};
+		EFB8FFB02CD9BA9B00BADC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.EtanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etana;
+			};
+			name = Debug;
+		};
+		EFB8FFB12CD9BA9B00BADC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.EtanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB8FF752CD9BA9900BADC8F /* Build configuration list for PBXProject "Etana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FFAA2CD9BA9B00BADC8F /* Debug */,
+				EFB8FFAB2CD9BA9B00BADC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FFA72CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "Etana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FFA82CD9BA9B00BADC8F /* Debug */,
+				EFB8FFA92CD9BA9B00BADC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FFAC2CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "EtanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FFAD2CD9BA9B00BADC8F /* Debug */,
+				EFB8FFAE2CD9BA9B00BADC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB8FFAF2CD9BA9B00BADC8F /* Build configuration list for PBXNativeTarget "EtanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB8FFB02CD9BA9B00BADC8F /* Debug */,
+				EFB8FFB12CD9BA9B00BADC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB8FF722CD9BA9900BADC8F /* Project object */;
+}
