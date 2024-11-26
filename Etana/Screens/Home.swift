@@ -42,9 +42,9 @@ struct Home: View {
                 HStack{
                     Spacer()
                     VStack(alignment: .center, spacing: 20){
-                        Text("\(majorText)").font(.system(size: 80, weight: .bold))
+                        Text("\(isWriting ? majorText.uppercased() : majorText)").font(.system(size: 80, weight: .bold))
                         if (isWriting){
-                            ZStack{
+                            ZStack(alignment: .center){
                                 MyCanvas(canvasView: canvasView)
                                 LazyHStack(spacing: 0){
                                     ForEach(Array(majorText.enumerated()), id: \.offset){ character in
@@ -56,7 +56,7 @@ struct Home: View {
                                         .border(Color.black, width: 1)
                                     }
                                 }
-                            }.frame(height: drawingAreaHeight)
+                            }.frame(height: drawingAreaHeight + 10)
                         }
                     }
                     Spacer()
@@ -95,12 +95,14 @@ struct Home: View {
     
     func spinTheBlock(){
         majorText = delegate.getRandomWord().capitalized
+        canvasView.drawing = PKDrawing()
     }
     
     func speakLetters(){
         let utterance = AVSpeechUtterance(string: majorText)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
         utterance.rate = 0.5
+        utterance.volume = 1
         synthesizer.speak(utterance)
     }
 }
